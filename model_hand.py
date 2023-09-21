@@ -1,4 +1,4 @@
-# try hand segmentation
+# model for training image sequences of different gesture types 
 
 import os
 import cv2
