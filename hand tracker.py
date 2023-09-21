@@ -5,7 +5,7 @@ import os
 mp_drawing = mp.solutions.drawing_utils
 mp_hands = mp.solutions.hands
 subdir = 'hand_down'                # specify which hand gesture directory to save the image sequences
-n_frames_save = 15                  # specify how many frames in one sequence you wish to save
+n_frames_save = 20                  # specify how many frames in one sequence you wish to save
 iteration_counter = n_frames_save + 1
 folder_counter = 1
 
