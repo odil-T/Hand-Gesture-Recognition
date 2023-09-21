@@ -1,3 +1,5 @@
+# program that saves sequences of images from webcam to be used as data
+
 import mediapipe as mp
 import cv2
 import os
@@ -14,17 +16,11 @@ capture = cv2.VideoCapture(0)
 with mp_hands.Hands(min_detection_confidence=0.8, min_tracking_confidence=0.5) as hands:
     while capture.isOpened():
         ret, frame = capture.read()
-
-        image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         image = cv2.flip(image, 1)
-        image.flags.writeable = False
         detected_image = hands.process(image)
-        image.flags.writeable = True
-        image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
-        # print(detected_image)
 
         if detected_image.multi_hand_landmarks:
-            for idx, hand_lms in enumerate(detected_image.multi_hand_landmarks):
+            for hand_lms in detected_image.multi_hand_landmarks:
                 mp_drawing.draw_landmarks(image, hand_lms,
                                           mp_hands.HAND_CONNECTIONS,
                                           landmark_drawing_spec=mp.solutions.drawing_utils.DrawingSpec(
