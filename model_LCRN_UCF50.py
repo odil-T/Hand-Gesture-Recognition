@@ -1,3 +1,5 @@
+# Conv2D + LSTM model used to train sequence of images for UCF50 dataset
+
 import os
 import cv2
 import pandas as pd
