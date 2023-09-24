@@ -1,4 +1,4 @@
-# model for training image sequences of different gesture types 
+# LCRN model for training image sequences of different gesture types 
 
 import os
 import cv2
