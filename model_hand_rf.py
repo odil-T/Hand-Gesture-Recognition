@@ -1,4 +1,4 @@
-# loads the saved data, trains the Random Forest model for single image classification
+# loads the saved data and trains the Random Forest model for single image classification
 
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
