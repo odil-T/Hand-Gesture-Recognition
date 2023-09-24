@@ -1,3 +1,5 @@
+# loads the data and trains the XGBoost model for single image classification
+
 import pandas as pd
 import xgboost as xgb
 import numpy as np
