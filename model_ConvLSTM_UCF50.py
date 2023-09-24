@@ -1,6 +1,4 @@
-# also try with ordinal encoding / no encoding + SparseCategoricalCrossentropy
-# also try using padding = 'same' for ConvLSTM2D
-# something is wrong with the model
+# Conv2DLSTM model used to train UCF50 dataset
 
 import os
 import cv2
