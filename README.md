@@ -14,7 +14,7 @@ The gestures activate the following keys:
 
 The sample images of gestures can be found at the end of README.
 
-You may change the type of key to be activated by changing the `class_to_key` dictionary in the `hand_gesture_reader.py`. Just replace the dictionary values to a string representing the key you wish to activate. For example, you can change the key of the gesture `Closed` from `up` to `h` so that when the 'Hand Closed' gesture is shown, the program will activate the 'H' key. Refer to pyautogui documentation for the available keys.
+You may change the type of key to be activated by changing the `class_to_key` dictionary in `hand_gesture_reader.py` file. Just replace the dictionary values to a string representing the key you wish to activate. For example, you can change the key of the gesture `Closed` from `up` to `h` so that when the 'Hand Closed' gesture is shown, the program will activate the 'H' key. Refer to pyautogui documentation for the available keys.
 
 The `hand_gesture_reader.py` file uses the random forest model parameters from `model_rf__date_time_2023_09_23__12_22_48__acc_1.0__hand__oneimage.pkl` file. These parameters were trained in `model_hand_rf.py` file using the data stored in .npz files.
 
