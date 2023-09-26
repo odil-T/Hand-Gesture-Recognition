@@ -11,6 +11,7 @@ The gestures activate the following keys:
 2. Hand Three - right arrow key
 3. Hand Open - left arrow key
 4. Hand Zero - down arrow key
+
 The sample images of gestures can be found at the end of README.
 
 You may change the type of key to be activated by changing the `class_to_key` dictionary in the `hand_gesture_reader.py`. Just replace the dictionary values to a string representing the key you wish to activate. For example, you can change the key of the gesture `Closed` from `up` to `h` so that when the 'Hand Closed' gesture is shown, the program will activate the 'H' key. Refer to pyautogui documentation for the available keys.
