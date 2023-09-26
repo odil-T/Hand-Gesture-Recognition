@@ -9,6 +9,8 @@ The above files uses the random forest model parameters from `model_rf__date_tim
 
 The data was made using `hand_landmark_dataset_maker.py` file.
 
+The required libraries must be installed before using the program. First, download the file `requirements.txt`. To install the libraries, run the following command in the command prompt: `pip install -r requirements.txt`
+
 
 Hand Zero
 ![hand_zero_sample_image](https://github.com/odil-T/Hand-Gesture-Recognition/assets/142138394/ad40f4fc-0d5c-42c2-af1c-96e83f17b630)
