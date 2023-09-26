@@ -2,14 +2,22 @@
 
 This repository stores the source code for the hand gesture recognition model.
 
-When the `hand_gesture_reader.py` file is executed, a webcam window opens which can predict four gestures. The program then activates certain arrow keys that are mapped to certain gestures.
+To use the model, download the following files: `requirements.txt`, `hand_gesture_reader.py`, `model_rf__date_time_2023_09_23__12_22_48__acc_1.0__hand__oneimage.pkl`.
+Next, enter the following command in the command prompt: `pip install -r requirements.txt`
+
+When the `hand_gesture_reader.py` file is run, a webcam window opens which can predict four gestures.
+The gestures activate the following keys:
+1. Hand Closed - up arrow key
+2. Hand Three - right arrow key
+3. Hand Open - left arrow key
+4. Hand Zero - down arrow key
 The sample images of gestures can be found at the end of README.
 
-The above files uses the random forest model parameters from `model_rf__date_time_2023_09_23__12_22_48__acc_1.0__hand__oneimage.pkl` file. These parameters were trained in `model_hand_rf.py` file using the data stored in .npz files.
+You may change the type of key to be activated by changing the `class_to_key` dictionary in the `hand_gesture_reader.py`. Just replace the dictionary values to a string representing the key you wish to activate. For example, you can change the key of the gesture `Closed` from `up` to `h` so that when the 'Hand Closed' gesture is shown, the program will activate the 'H' key. Refer to pyautogui documentation for the available keys.
+
+The `hand_gesture_reader.py` file uses the random forest model parameters from `model_rf__date_time_2023_09_23__12_22_48__acc_1.0__hand__oneimage.pkl` file. These parameters were trained in `model_hand_rf.py` file using the data stored in .npz files.
 
 The data was made using `hand_landmark_dataset_maker.py` file.
-
-The required libraries must be installed before using the program. First, download the file `requirements.txt`. To install the libraries, run the following command in the command prompt: `pip install -r requirements.txt`
 
 
 Hand Zero
