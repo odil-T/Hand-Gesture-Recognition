@@ -3,7 +3,7 @@
 This repository stores the source code for the hand gesture recognition model.
 
 To use the model, download the following files: `requirements.txt`, `hand_gesture_reader.py`, `model_rf__date_time_2023_09_23__12_22_48__acc_1.0__hand__oneimage.pkl`.
-Next, enter the following command in the command prompt: `pip install -r requirements.txt`
+Next, enter the following command in the command prompt to install the necessary libraries `pip install -r requirements.txt`.
 
 When the `hand_gesture_reader.py` file is run, a webcam window opens which can predict four gestures.
 The gestures activate the following keys:
