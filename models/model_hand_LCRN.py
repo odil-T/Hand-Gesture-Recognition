@@ -14,10 +14,6 @@ from tensorflow.python.keras.layers import *
 from tensorflow.keras.layers import *
 
 with tf.device('/GPU:0'):
-    seed = 77
-    random.seed(seed)
-    np.random.seed(seed)
-    tf.random.set_seed(seed)
     plt.figure(figsize=(10, 10))
 
     all_data_dir = 'data'
@@ -48,7 +44,7 @@ with tf.device('/GPU:0'):
     X = (np.array(X) / 255.0).astype('float32') # (n_samples, n_frames, height, width, channels)
     y = np.array(y)                             # (n_samples)
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=True, random_state=seed)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=True, random_state=1)
 
     early_stopping = tf.keras.callbacks.EarlyStopping(restore_best_weights=True,
                                                       patience=10)
