@@ -8,7 +8,6 @@ import tensorflow as tf
 import random
 import datetime as dt
 import matplotlib.pyplot as plt
-from moviepy.editor import *
 from sklearn.model_selection import train_test_split
 from tensorflow.python.keras.layers import *
 from tensorflow.keras.layers import *
