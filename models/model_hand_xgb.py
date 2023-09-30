@@ -1,3 +1,4 @@
+# Author: Odilbek Tokhirov
 # loads the saved data and trains the XGBoost model for single image classification
 
 import pandas as pd
