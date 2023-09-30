@@ -1,3 +1,4 @@
+# Author: Odilbek Tokhirov
 # loads the saved data and trains the Random Forest model for single image classification
 
 from sklearn.ensemble import RandomForestClassifier
