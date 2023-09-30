@@ -1,3 +1,4 @@
+# Author: Odilbek Tokhirov
 # LCRN model for training image sequences of different gesture types 
 
 import os
