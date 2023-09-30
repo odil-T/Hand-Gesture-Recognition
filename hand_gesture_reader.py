@@ -1,4 +1,5 @@
 # opens the webcam, predicts the gesture shown, activates arrow keys
+# press Q to close the webcam
 
 import mediapipe as mp
 import cv2
