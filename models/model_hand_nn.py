@@ -1,3 +1,4 @@
+# Author: Odilbek Tokhirov
 # loads the saved data and trains the Dense Neural Network model
 
 import pandas as pd
