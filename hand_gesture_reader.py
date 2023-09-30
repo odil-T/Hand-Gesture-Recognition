@@ -1,3 +1,4 @@
+# Author: Odilbek Tokhirov
 # opens the webcam, predicts the gesture shown, activates arrow keys
 # press Q to close the webcam
 
