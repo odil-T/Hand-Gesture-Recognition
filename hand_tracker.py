@@ -1,3 +1,4 @@
+# Author: Odilbek Tokhirov
 # program that saves sequences of images from webcam to be used as data
 
 import mediapipe as mp
