@@ -1,3 +1,4 @@
+# Author: Odilbek Tokhirov
 # program that saves the landmarks of the hand in a numpy array along with their images
 # press R to start saving, Q to exit the program
 
