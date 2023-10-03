@@ -21,4 +21,20 @@ The `hand_gesture_reader.py` file uses the random forest model parameters from `
 
 The data was made using `hand_landmark_dataset_maker.py` file.
 
+
+
+
+Hand Closed
 <img src='sample_images/Hand Closed.jpg'/>
+
+
+Hand Three
+<img src='sample_images/Hand Three.jpg'/>
+
+
+Hand Open
+<img src='sample_images/Hand Open.jpg'/>
+
+
+Hand Zero
+<img src='sample_images/Hand Zero.jpg'/>
