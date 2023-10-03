@@ -20,3 +20,5 @@ You may change the type of key to be activated by changing the `class_to_key` di
 The `hand_gesture_reader.py` file uses the random forest model parameters from `model_rf__date_time_2023_09_23__12_22_48__acc_1.0__hand__oneimage.pkl` file. These parameters were trained in `model_hand_rf.py` file using the data stored in .npz files.
 
 The data was made using `hand_landmark_dataset_maker.py` file.
+
+<img src='sample_images/Hand Closed.jpg'/>
