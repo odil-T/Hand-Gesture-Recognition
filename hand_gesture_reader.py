@@ -31,6 +31,7 @@ current_command = None
 
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.4)
 capture = cv2.VideoCapture(0)  # 0 integrated | 1 plugged
+
 while capture.isOpened():
     ret, frame = capture.read()
     height, width = frame.shape[:-1]
@@ -68,6 +69,9 @@ while capture.isOpened():
         if current_command != yhat:  # performs the new action once
             pag.press(class_to_key[yhat])
             current_command = yhat
+
+    elif current_command != None:
+        current_command = None
 
     cv2.imshow('Hand Gesture Reader', image)
     if cv2.waitKey(1) & 0xFF == ord('q'):
