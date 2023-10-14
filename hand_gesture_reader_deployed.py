@@ -63,7 +63,7 @@ for i in range(0, n_classes, 2):
 current_command = None
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.4)
 
-capture = cv2.VideoCapture(1)  # 0 integrated | 1 plugged
+capture = cv2.VideoCapture(0)  # 0 integrated | 1 plugged
 while capture.isOpened():
     ret, frame = capture.read()
     height, width = frame.shape[:-1]
