@@ -3,9 +3,10 @@
 This repository stores the source code for the hand gesture recognition model.
 
 Please note that you will need python and pip to be installed.
-To open the app in streamlit, download `requirements.txt`, `hand_gesture_reader_deployed.py`, `model_rf__date_time_2023_09_23__12_22_48__acc_1.0__hand__oneimage.pkl` and enter the following command in the terminal `streamlit run hand_gesture_reader_deployed.py`.
+To open the app in streamlit, download `requirements.txt`, `hand_gesture_reader_deployed.py`, `model_rf__date_time_2023_09_23__12_22_48__acc_1.0__hand__oneimage.pkl`.
 Next, enter the following command in the command prompt `pip install -r requirements.txt` to install the necessary libraries.
-Alternatively you open using python by downloading and running the following file: `hand_gesture_reader.py`. (Make sure to install requirements first.)
+Open the directory in a terminal where the files are stored and enter the following command `streamlit run hand_gesture_reader_deployed.py`.
+Alternatively, you may open using python by downloading and running the following file: `hand_gesture_reader.py`. (Make sure to install requirements first.)
 
 When the `hand_gesture_reader.py` file is run, a webcam window opens which can predict four gestures.
 The gestures activate the following keys:
